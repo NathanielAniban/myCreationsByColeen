@@ -1,9 +1,9 @@
 import { Menu } from 'lucide-react'
 import { useState } from 'react'
+import logo from '../assets/image-logo-icon.jpg';
 export default function NavigationBar(){
     
     const [toggleButton, setToggleButton] = useState <boolean> (false);
-    const logo = 'https://scontent.fmnl25-2.fna.fbcdn.net/v/t39.30808-6/483485344_122117009036697012_9053246276637196690_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEh8ziTox-K7RInTx4RJnX_AapksAgVwv8BqmSwCBXC_-4IknX8fEnraMCVPKxw9RR0rP1vYPVMNjNHkFRhdXSq&_nc_ohc=wim3FsPXUYQQ7kNvwFes92b&_nc_oc=AdnoozNTk2ZfxWan_0BLURTqzvr9z1W7z-XfuaQsZlGuhtjtvdmWAI3sHnuK808aU0E&_nc_zt=23&_nc_ht=scontent.fmnl25-2.fna&_nc_gid=fssNM35gtMLnPxFL9x8rtg&oh=00_AfF3_QJ1y4p87JHEwe9qeAxrU_j3dDc9UpDLGoxX0712ng&oe=6807A42A';
     return(
         <header className="sticky top-0 max-w-full p-5 bg-rose-100 flex justify-between items-center z-50">
             <button onClick={() => window.scrollTo({top:0, behavior: 'smooth' })} 

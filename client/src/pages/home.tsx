@@ -1,8 +1,9 @@
 import { ArrowRight } from "lucide-react";
 import { Facebook } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from '../assets/image-logo-icon.jpg';
+
 export default function Home() {
-    const logo = 'https://scontent.fmnl25-2.fna.fbcdn.net/v/t39.30808-6/483485344_122117009036697012_9053246276637196690_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEh8ziTox-K7RInTx4RJnX_AapksAgVwv8BqmSwCBXC_-4IknX8fEnraMCVPKxw9RR0rP1vYPVMNjNHkFRhdXSq&_nc_ohc=wim3FsPXUYQQ7kNvwFes92b&_nc_oc=AdnoozNTk2ZfxWan_0BLURTqzvr9z1W7z-XfuaQsZlGuhtjtvdmWAI3sHnuK808aU0E&_nc_zt=23&_nc_ht=scontent.fmnl25-2.fna&_nc_gid=fssNM35gtMLnPxFL9x8rtg&oh=00_AfF3_QJ1y4p87JHEwe9qeAxrU_j3dDc9UpDLGoxX0712ng&oe=6807A42A';
     const facebookURL = 'https://www.facebook.com/profile.php?id=61570910369214';
     const tikTokURL = 'https://www.tiktok.com/@mycreationsbycoleen?fbclid=IwY2xjawJuw8BleHRuA2FlbQIxMAABHkBojhLBQYM3Q1beQf5zkqACbq8bU1Zhe9vx7gLriXlk2CB9krcymwyob3Wq_aem_KdKWqoV_oELm6bQAVDug3Q';
     const tiktokIcon = 'https://www.svgrepo.com/show/333611/tiktok.svg';
